@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e9ebfa; */
+  
+}
+
+.welcome-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.container { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('image2.jpg'); /* Use the uploaded image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.center-button:hover {
+    background-color: #0056b3;
+}
